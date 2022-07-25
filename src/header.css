@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header part start */
+.headerimage {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerimage img {
+  width: 400px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .headerimage {
+    height: 86px;
+  }
+  .headerimage img {
+    width: 225px;
+  }
+}
+/* heaader part ends here  */
+/* MAIN part Starts Here */
+
+.app-content {
+  text-align: center;
+}
+.maincontainer {
+  display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .maincontainer {
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+  }
+}
+.awardimage-container {
+  width: 50%;
+}
+.awardimage-container img {
+  width: 100%;
+}
+.main-content {
+  align-items: center;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.main-content img {
+  justify-content: center;
+  width: 90%;
+}
+/* MAIN part End Here */
+/* Second Main part Starts Here  */
+.second_screen {
+  padding: 10px;
+}
+.second_screen h2 {
+  margin: 10px;
+  padding: 3px;
+  font-size: 1rem;
+}
+.image2 {
+  border-bottom: 3px solid red;
+  width: 95%;
+  /* height: 500px; */
+  margin: 10px auto;
+  padding: 15px;
+}
+.image2 img {
+  image-rendering: auto;
+  width: 100%;
+}
+.image2 p {
+  text-align: center;
+  text-align: center;
+  margin: 5px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  -ms-text-kashida-space: initial;
+  padding: 5px;
+}
+/* Second Main part End Here  */
+.thirdpart {
+  margin: 5px auto;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.lastHeading{
+text-align: center;
+  font-size: 1.3rem;
+}
+.thirdpart a{
+  text-decoration: none;
+  padding: 0px 2px;
+  font-weight: 600;
+  font-size: .9rem;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+}
+.footer-content{
+padding: 5px;
+  background-color: red;
+    display: flex;
+    align-items: center;
+    font-weight: 650;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    
+}
+footer a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+@media screen and (min-width: 220px) and (max-width: 580px){
+  .footer-content a {
+    font-size: .7rem;
+  }
+
+}
