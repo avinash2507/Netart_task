@@ -2,6 +2,7 @@
   "name": "tasknetart",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://avinash2507.github.io/task_netart",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -9,6 +10,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -35,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
