@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/task_netart/static/css/main.6d51f5cd.css",
+    "main.js": "/task_netart/static/js/main.fe76fd6c.js",
+    "static/js/787.67bd7d6d.chunk.js": "/task_netart/static/js/787.67bd7d6d.chunk.js",
+    "index.html": "/task_netart/index.html",
+    "main.6d51f5cd.css.map": "/task_netart/static/css/main.6d51f5cd.css.map",
+    "main.fe76fd6c.js.map": "/task_netart/static/js/main.fe76fd6c.js.map",
+    "787.67bd7d6d.chunk.js.map": "/task_netart/static/js/787.67bd7d6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d51f5cd.css",
+    "static/js/main.fe76fd6c.js"
+  ]
+}
